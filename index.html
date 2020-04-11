@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>Totally not localhost:3000</title>
+    </head>
+    <body>
+        <h1>Great Movies</h1>
+        <div id="form">
+            <div id="movie-details" class="movie-form">
+                <h1>Movie Details</h1>
+                <span id = "span-response-details"></span>
+                <span id = "movie-id" class="hidden"></span>
+                <p>
+                    <label for="txt-title">Title: </label>
+                    <input id="txt-title">
+                </p>
+                <p>
+                    <label for="txt-year">Year: </label>
+                    <input id="txt-year">
+                </p>
+                <p>
+                    <label for="txt-rating">Rating: </label>
+                    <input id="txt-rating">
+                </p>
+                <p>
+                    <label for="txt-description">Description: </label>
+                    <input id="txt-description">
+                </p>
+                <button id="btn-edit-movie">Edit Movie</button>
+                <button id="btn-delete-movie">Delete Movie</button>
+            </div>
+            <div id="add-movie" class="movie-form">
+                <h1>Add Movie</h1>
+                <span id = "span-response-add"></span>
+                <p>
+                    <label for="txt-add-title">Title: </label>
+                    <input id="txt-add-title">
+                </p>
+                <p>
+                    <label for="txt-add-year">Year: </label>
+                    <input id="txt-add-year">
+                </p>
+                <p>
+                    <label for="txt-add-rating">Rating: </label>
+                    <input id="txt-add-rating">
+                </p>
+                <p>
+                    <label for="txt-add-description">Description: </label>
+                    <input id="txt-add-description">
+                </p>
+                <button id="btn-add-movie">Add Movie</button>
+            </div>
+        </div>
+        <div id ="movies-div">
+        </div>
+    </body>
+</html>
